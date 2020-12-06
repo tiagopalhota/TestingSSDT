@@ -1,0 +1,7 @@
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\bin\Release\AdventureWorks.dacpac
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\bin\Release\AdventureWorks.dll
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\bin\Release\AdventureWorks.pdb
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\bin\Release\master.dacpac
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\AdventureWorks.sqlproj.CopyComplete
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\AdventureWorks.dll
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\AdventureWorks.pdb
