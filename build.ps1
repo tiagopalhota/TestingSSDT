@@ -16,7 +16,7 @@ $MSBuildPath = "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MS
 
 
 # The name of the project that is going to be built
-$SSDTProject = ".\Demo\Demo.sqlproj"
+$SSDTProject = ".\AdventureWorks.sqlproj"
 
 
 # Execute the command, making sure the PostBuildEvent doesnt
