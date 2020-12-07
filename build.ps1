@@ -23,7 +23,7 @@ $SSDTProject = ".\AdventureWorks.sqlproj"
 
 # Execute the command, making sure the PostBuildEvent doesnt
 # run in case we forgot to comment it out in the project
-& $MSBuildPath $SSDTProject
+& $MSBuildPath "/property:Configuration=Release" $SSDTProject
 
 
 if($LASTEXITCODE -ne 0)
