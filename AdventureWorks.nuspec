@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>AdventureWorks/id>
+    <version>1.0.0.0</version>
+    <authors>Tiago Palhota</authors>
+    <owners>Tiago Palhota</owners>
+    <tags>OctopusDeploy</tags>
+
+    <description>AdventureWorks SSDT Demo</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+	<file src="bin\Release\AdventureWorks.dacpac" target="Content" />
+  </files>
+</package>
