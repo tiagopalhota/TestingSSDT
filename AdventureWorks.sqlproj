@@ -73,6 +73,9 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+    <None Include="AdventureWorks.nuspec">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="ContinuousDeployment\1.PreDeployment.Updates.sql" />
@@ -80,9 +83,9 @@
     <None Include="ContinuousDeployment\2.PostDeployment.StaticTablesList.sql" />
     <None Include="ContinuousDeployment\StaticTables\StaticTableExample.sql" />
     <None Include="ContinuousDeployment\StaticTables\Person.CountryRegion.sql" />
-    <Build Include="dev.publish.xml">
+    <None Include="Deploy.ps1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Build>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac">
