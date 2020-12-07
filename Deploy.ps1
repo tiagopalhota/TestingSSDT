@@ -2,7 +2,7 @@
 # Set params
 # --------------
  
-$BuildName = $OctopusParameters["BuildName"]
+$BuildName =  'AdventureWorks' #$OctopusParameters["BuildName"]
 $ServerName = $OctopusParameters["ServerName"]
 $DatabaseName = $OctopusParameters["DatabaseName"]
 $DbUsername = $OctopusParameters["DbUsername"]
@@ -14,7 +14,7 @@ Write-Host "This build will deploy: " $BuildName " to Server: " $ServerName
  
 try {
     # Load in DAC DLL (requires config file to support .NET 4.0)
-    Add-Type -path "C:Program FilesMicrosoft SQL Serv-er150DACbinMicrosoft.SqlServer.Dac.dll"
+    Add-Type -path "C:\Program Files (x86)\Microsoft Visual Studio\2017\SQL\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\130\Microsoft.SqlServer.Dac.dll"
  
     # Make DacServices object
     #$d = New-Object Microsoft.SqlServer.Dac.DacServices "Server = $ServerName; Data-base = $DatabaseName; Integrated Security = True;";
