@@ -1,4 +1,4 @@
-$SSDTToolsPath = $PSScriptRoot + "\build\Microsoft.Data.Tools.Msbuild.16.0.62004.28040\lib\net46"
+$SSDTToolsPath = $PSScriptRoot + "\build\Microsoft.Data.Tools.Msbuild.10.0.61804.210\lib\net46"
 
 gci
 
