@@ -1,5 +1,7 @@
 $SSDTToolsPath = $PSScriptRoot + "\build\Microsoft.Data.Tools.Msbuild.16.0.62004.28040\lib\net46"
 
+Out-Host $SSDTToolsPath
+
 # These two environments variables are used by the build process to find
 # the data tools necessary to do the build
 $env:SQLDBExtensionsRefPath=$SSDTToolsPath
