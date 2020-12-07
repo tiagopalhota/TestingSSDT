@@ -5,3 +5,7 @@ C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\bin\Release\master.dac
 C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\AdventureWorks.sqlproj.CopyComplete
 C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\AdventureWorks.dll
 C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\AdventureWorks.pdb
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\Model.xml
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\refactor.xml
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\postdeploy.sql
+C:\Development\LearningSSDT\AdventureWorks\AdventureWorks\obj\Release\predeploy.sql
