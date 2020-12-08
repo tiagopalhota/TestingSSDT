@@ -47,9 +47,12 @@ if($WorkingDir -eq "") {
 # The location of SqlPackage on the machine running this script
 $SQLPackageExe = "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\130\SqlPackage.exe"
 
+
+
+
 # Create valid paths to each of the two file necessary to do the deployments/publish
 $DacpacFile = Join-Path $WorkingDir -ChildPath "AdventureWorks.dacpac"
-$PublishProfile = Join-Path $WorkingDir -ChildPath "AdventureWorks.publish.xml"
+$PublishProfile = Join-Path $WorkingDir -ChildPath "dev.AdventureWorks.publish.xml"
 
 $connectionString = ""
 

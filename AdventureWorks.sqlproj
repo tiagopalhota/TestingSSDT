@@ -86,7 +86,9 @@
     <None Include="Deploy.ps1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="dev.AdventureWorks.publish.xml" />
+    <None Include="dev.AdventureWorks.publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Publish.ps1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
