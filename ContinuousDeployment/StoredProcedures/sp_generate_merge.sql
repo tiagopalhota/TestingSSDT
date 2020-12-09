@@ -1,4 +1,4 @@
---Downloaded from https://github.com/readyroll/generate-sql-merge
+﻿--Downloaded from https://github.com/readyroll/generate-sql-merge
 
 CREATE PROC [sp_generate_merge]
 (
