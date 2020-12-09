@@ -14,5 +14,6 @@
 	<file src="bin\Release\AdventureWorks.dacpac" target="Content" />
     <file src="bin\Release\Publish.ps1" target="Content"/>
     <file src="bin\Release\dev.AdventureWorks.publish.xml" target="Content"/>
+    <file src="deployment\**" target="Content" />
   </files>
 </package>
