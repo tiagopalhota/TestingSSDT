@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>AdventureWorks</id>
-    <version>1.0.0.2</version>
+    <version>$version$</version>
     <authors>Tiago Palhota</authors>
     <owners>Tiago Palhota</owners>
     <tags>OctopusDeploy</tags>
