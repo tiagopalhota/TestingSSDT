@@ -8,6 +8,10 @@ GO
 
 SET NOCOUNT ON
 
+if (object_id('person.countryRegion') is not null)
+BEGIN
+
+
 MERGE INTO [Person].[CountryRegion] AS [Target]
 USING (VALUES
   (N'AD',N'Andorra','2008-04-30T00:00:00')
@@ -262,6 +266,9 @@ WHEN NOT MATCHED BY TARGET THEN
 WHEN NOT MATCHED BY SOURCE THEN 
  DELETE
 ;
+
+END
+
 GO
 DECLARE @mergeError int
  , @mergeCount int
