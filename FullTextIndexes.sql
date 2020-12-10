@@ -12,8 +12,3 @@ CREATE FULLTEXT INDEX ON [Production].[ProductReview]
 
 
 GO
-CREATE FULLTEXT INDEX ON [HumanResources].[JobCandidate]
-    ([Resume] LANGUAGE 1033)
-    KEY INDEX [PK_JobCandidate_JobCandidateID]
-    ON [AW2016FullTextCatalog];
-
